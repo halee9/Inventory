@@ -1,0 +1,23 @@
+{
+"C01": { "id": "C01", "group": "Produce", "name": "Mushroom", "unit": "Case", "qty": 1, "location": "SR1", "suppliers": [ "RD", "CC" ], "image": "mushroom" },
+"C02": { "id": "C02", "group": "Produce", "name": "Tofu", "unit": "Each", "qty": 10, "location": "SR1", "suppliers": [ "H-Mart" ], "image": "tofu" },
+"C03": { "id": "C03", "group": "Produce", "name": "Green Onions", "unit": "Bag", "qty": 1, "location": "SR1", "suppliers": [ "RD", "CC", "H-Mart" ], "image": "greenonions" },
+"C04": { "id": "C04", "group": "Produce", "name": "Romaine Lettuce", "unit": "Case", "qty": 1, "location": "SR1", "suppliers": [ "CC", "RD" ], "image": "romainelettuce" },
+"C05": { "id": "C05", "group": "Produce", "name": "Broccoli", "unit": "Case", "qty": 1, "location": "SR1", "suppliers": [ "RD", "CC" ], "image": "broccoli" },
+"C06": { "id": "C06", "group": "Produce", "name": "Cabbage", "unit": "Case", "qty": 1, "location": "SR1", "suppliers": [ "RD", "CC" ], "image": "cabbage" },
+"C07": { "id": "C07", "group": "Produce", "name": "Bean Sprout", "unit": "Bag", "qty": 1, "location": "SR1", "suppliers": [ "H-Mart", "CC", "RD" ], "image": "beansprout" },
+"C08": { "id": "C08", "group": "Produce", "name": "Kimchi", "unit": "Case", "qty": 1, "location": "SR1", "suppliers": [ "H-Mart" ], "image": "kimchi" },
+"F01": { "id": "F01", "group": "Meat", "name": "Chicken Thigh A", "unit": "Case", "qty": 1, "location": "SR2", "suppliers": [ "FSI" ], "image": "chickenThighA" },
+"F02": { "id": "F02", "group": "Meat", "name": "Chicken Thigh B", "unit": "Case", "qty": 1, "location": "FZ2", "suppliers": [ "RD", "CC" ], "image": "chickenThighB" },
+"F03": { "id": "F03", "group": "Meat", "name": "Chicken Breast", "unit": "Case", "qty": 1, "location": "FZ2", "suppliers": [ "RD" ], "image": "chickenBreast" },
+"F04": { "id": "F04", "group": "Meat", "name": "Beef", "unit": "Pound", "qty": 60, "location": "FZ2", "suppliers": [ "SK" ], "image": "beef" },
+"F05": { "id": "F05", "group": "Meat", "name": "Pork", "unit": "Pound", "qty": 60, "location": "FZ2", "suppliers": [ "SK" ], "image": "pork" },
+"F06": { "id": "F06", "group": "Meat", "name": "Salmon", "unit": "Bag", "qty": 1, "location": "FZ2", "suppliers": [ "COS" ], "image": "salmon" },
+"F07": { "id": "F07", "group": "Meat", "name": "Shrimp", "unit": "Bag", "qty": 1, "location": "FZ2", "suppliers": [ "RD", "COS" ], "image": "shrimp" },
+"F08": { "id": "F08", "group": "Frozen", "name": "EggRoll", "unit": "Case", "qty": 1, "location": "FZ2", "suppliers": [ "H-Mart" ], "image": "eggroll" },
+"F09": { "id": "F09", "group": "Frozen", "name": "Gyoza", "unit": "Case", "qty": 6, "location": "FZ3", "suppliers": [ "RD" ], "image": "gyoza" },
+"F10": { "id": "F10", "group": "Frozen", "name": "Seaweed", "unit": "Case", "qty": 4, "location": "FZ2", "suppliers": [ "RD" ], "image": "seaweed" },
+"F11": { "id": "F11", "group": "Frozen", "name": "Edamame", "unit": "Bag", "qty": 1, "location": "FZ2", "suppliers": [ "COS" ], "image": "edamame" },
+"F12": { "id": "F12", "group": "Frozen", "name": "Corn", "unit": "Bag", "qty": 1, "location": "FZ2", "suppliers": [ "RD", "CC" ], "image": "corn" },
+"F13": { "id": "F13", "group": "Frozen", "name": "Pea Carrot", "unit": "Bag", "qty": 1, "location": "FZ2", "suppliers": [ "RD", "CC" ], "image": "peacarrot" }
+}
