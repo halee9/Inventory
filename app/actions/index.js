@@ -1,8 +1,8 @@
 import Firebase from 'firebase';
-//import firebaseConfig from '../config/firebaseConfig';
+import firebaseConfig from '../config/firebaseConfig';
 //const firebase = require('firebase');
 //const firebaseApp = firebase.initializeApp(firebaseConfig);
-var invRef = new Firebase('https://hainv.firebaseio.com');
+var invRef = new Firebase(firebaseConfig.databaseURL);
 
 export function fetchInventory() {
   return dispatch => {
