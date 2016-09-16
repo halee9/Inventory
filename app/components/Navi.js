@@ -6,8 +6,8 @@ import Home from './Home';
 import SKUItem from './SKUItem';
 import CameraComp from './CameraComp';
 import ShowPhoto from './ShowPhoto';
-import ImageList from './ImageList';
 import ItemForm from './ItemForm';
+import PhotoViewer from './PhotoViewer';
 import CartContainer from '../containers/CartContainer';
 
 class Navi extends Component {
@@ -21,8 +21,7 @@ class Navi extends Component {
           <Scene key="List" component={SKUListContainer} hideNavBar={false} title="Inventory List" />
           <Scene key="Item" component={SKUItem} hideNavBar={false} title="ITEM" />
           <Scene key="Camera" component={CameraComp} hideNavBar={false} title="Camera" />
-          <Scene key="Photo" component={ShowPhoto} hideNavBar={false} title="Photo" />
-          <Scene key="ImageList" component={ImageList} hideNavBar={false} title="Image List" />
+          <Scene key="Photo" component={PhotoViewer} hideNavBar={false} title="Photos" />
           <Scene key="ItemForm" component={ItemForm} hideNavBar={false} title="Edit Item" />
         </Scene>
       </Router>

@@ -97,7 +97,7 @@ class ItemForm extends Component {
           placeholder="Item name ..."
           onChangeText={name => this.setState({name})}
           value={this.state.name}
-          onFocus={()=>this.clearSelectors()}
+          onFocus={this.clearSelectors.bind(this)}
         />
         <TouchableHighlight
           underlayColor="transparent"

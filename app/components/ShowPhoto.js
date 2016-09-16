@@ -10,6 +10,7 @@ import {
 import { Actions } from 'react-native-router-flux';
 //var RNUploader = require('NativeModules').RNUploader;
 import { RNS3 } from 'react-native-aws3';
+import s3_options from '../config/s3';
 
 const styles = StyleSheet.create({
   container: {
@@ -30,13 +31,13 @@ const styles = StyleSheet.create({
 });
 
 function _generateUUID() {
-    var d = new Date().getTime();
-    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-        var r = (d + Math.random()*16)%16 | 0;
-        d = Math.floor(d/16);
-        return (c=='x' ? r : (r&0x3|0x8)).toString(16);
-    });
-    return uuid;
+  var d = new Date().getTime();
+  var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = (d + Math.random()*16)%16 | 0;
+    d = Math.floor(d/16);
+    return (c=='x' ? r : (r&0x3|0x8)).toString(16);
+  });
+  return uuid;
 };
 
 
@@ -52,15 +53,7 @@ class ShowPhoto extends Component {
       type: 'image/jpeg',
     };
 
-    const options = {
-      keyPrefix: 'photos/',
-      bucket: 'halee9',
-      region: 'us-west-2',
-      accessKey: 'AKIAIUOVJNY4X73PZV7Q',
-      secretKey: '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',
-      successActionStatus: 201
-    };
-
+    const options = s3_options;
     //this.setState({ uploading: true, showUploadModal: true, });
     RNS3.put(file, options).then(response => {
       console.log(response);

@@ -52,7 +52,7 @@ const Home = () => (
       <TouchableHighlight onPress={Actions.Camera} style={{flex:1}} underlayColor="transparent">
         <Text style={button}><Icon name="file-text-o" size={24} color="#fff" />   Purchased List</Text>
       </TouchableHighlight>
-      <TouchableHighlight onPress={Actions.ImageList} style={{flex:1}} underlayColor="transparent">
+      <TouchableHighlight onPress={Actions.Photo} style={{flex:1}} underlayColor="transparent">
         <Text style={button}><Icon name="camera" size={24} color="#fff" />   Snapshot</Text>
       </TouchableHighlight>
       <View style={{flex:3,justifyContent: 'center'}}>
